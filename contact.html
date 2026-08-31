@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact - SafexGuard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+:root{--green:#1f7a4d;--light:#f4faf6;--white:#fff;--line:#e0e6e2;--muted:#5a6b62;}
+*{box-sizing:border-box;}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:#222;background:var(--white);}
+.container{max-width:1100px;margin:0 auto;padding:0 20px;}
+header{background:var(--white);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10;}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:16px 0;}
+.nav a{color:#222;text-decoration:none;margin-left:24px;font-weight:600;}
+.nav a:hover{color:var(--green);}
+.logo{font-weight:800;font-size:1.3rem;color:var(--green);text-decoration:none;}
+.hero{background:var(--light);padding:48px 0;text-align:center;}
+.hero h1{font-size:2.2rem;margin-bottom:12px;}
+section{padding:44px 0;}
+.card{border:1px solid var(--line);border-radius:12px;padding:24px;background:var(--white);}
+.soft{background:var(--light);}
+ul,ol{max-width:850px;padding-left:22px;margin:14px 0 0;}
+li{margin:8px 0;}
+.buttons{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px;}
+.button{display:inline-block;background:var(--green);color:#fff;text-decoration:none;padding:11px 18px;border-radius:7px;font-weight:700;}
+.button.secondary{background:#fff;color:var(--green);border:1px solid var(--green);}
+.tag{color:var(--muted);font-size:.92rem;}
+footer{background:#f9fafb;border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:.92rem;}
+footer a{color:var(--green);}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;}
+label{display:block;font-weight:700;margin:14px 0 6px;}
+input,textarea{width:100%;padding:10px 12px;border:1px solid var(--line);border-radius:7px;font-family:inherit;font-size:1rem;}
+textarea{min-height:140px;resize:vertical;}
+.form-wrap{max-width:600px;}
+@media (max-width:760px){.nav{align-items:flex-start;flex-direction:column;} .grid{grid-template-columns:1fr;} section{padding:44px 0;}}
+</style>
+</head>
+<body>
+<header>
+<div class="container nav">
+<a class="logo" href="index.html">SafexGuard</a>
+<div>
+<a href="index.html">Home</a>
+<a href="about.html">About Us</a>
+<a href="technology.html">Technology</a>
+<a href="products.html">Products</a>
+<a href="applications.html">Applications</a>
+<a href="contact.html">Contact</a>
+</div>
+</div>
+</header>
+
+<div class="hero">
+<div class="container">
+<h1>Contact Us</h1>
+<p>Interested in a pilot project or want to learn more? Get in touch with the SafexGuard team.</p>
+</div>
+</div>
+
+<section>
+<div class="container grid">
+<div>
+<h2>Get In Touch</h2>
+<p>We'd love to hear from businesses, researchers, and partners interested in food freshness monitoring solutions.</p>
+<ul>
+<li>Email: info@safexguard.com</li>
+<li>Company: ZenxTag Technology Limited</li>
+<li>Location: Hong Kong</li>
+</ul>
+<p class="tag">Follow us on <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a> and <a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a> for updates.</p>
+</div>
+<div class="form-wrap">
+<form>
+<label for="name">Name</label>
+<input type="text" id="name" name="name" placeholder="Your name">
+<label for="email">Email</label>
+<input type="email" id="email" name="email" placeholder="you@example.com">
+<label for="message">Message</label>
+<textarea id="message" name="message" placeholder="Tell us about your project or inquiry"></textarea>
+<div class="buttons">
+<button type="submit" class="button">Send Message</button>
+</div>
+</form>
+</div>
+</div>
+</section>
+
+<footer>
+<div class="container">
+<p>&copy; 2026 SafexGuard (ZenxTag Technology Limited). All rights reserved.</p>
+<p>
+<a href="contact.html">Contact</a> |
+<a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a> |
+<a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a>
+</p>
+</div>
+</footer>
+</body>
+</html>
