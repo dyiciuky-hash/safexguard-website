@@ -1,2 +1,133 @@
-# safexguard-website
-SafexGuard company website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | SafexGuard</title>
+  <meta name="description" content="SafexGuard develops real-time food freshness monitoring solutions to reduce food waste and enhance food safety from farm to table.">
+  <style>
+    :root { --green:#0f766e; --dark:#064e3b; --light:#f0fdfa; --ink:#1f2937; --muted:#4b5563; --line:#d1d5db; --white:#fff; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Arial, Helvetica, sans-serif; color:var(--ink); line-height:1.65; }
+    header { background:var(--white); border-bottom:1px solid var(--line); position:sticky; top:0; }
+    .container { width:min(1100px, calc(100% - 40px)); margin:auto; }
+    .nav { display:flex; align-items:center; justify-content:space-between; gap:20px; padding:16px 0; }
+    .brand { color:var(--dark); font-weight:800; font-size:1.35rem; text-decoration:none; }
+    nav { display:flex; flex-wrap:wrap; gap:16px; }
+    nav a { color:var(--ink); text-decoration:none; font-size:.95rem; }
+    nav a:hover { color:var(--green); }
+    section { padding:64px 0; }
+    .hero { background:linear-gradient(135deg, #ecfdf5, #ffffff); }
+    h1 { color:var(--dark); font-size:clamp(2rem, 4vw, 3.4rem); line-height:1.18; margin:0 0 18px; max-width:900px; }
+    h2 { color:var(--dark); font-size:1.65rem; margin:0 0 14px; }
+    h3 { color:var(--green); font-size:1.25rem; margin:0 0 8px; }
+    p { max-width:850px; margin:0 0 16px; }
+    .lead { color:var(--muted); font-size:1.15rem; max-width:800px; }
+    .grid { display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:22px; }
+    .grid-3 { grid-template-columns:repeat(3, minmax(0, 1fr)); }
+    .card { border:1px solid var(--line); border-radius:12px; padding:24px; background:var(--white); }
+    .soft { background:var(--light); }
+    ul, ol { max-width:850px; padding-left:22px; margin:14px 0 0; }
+    li { margin:8px 0; }
+    .buttons { display:flex; flex-wrap:wrap; gap:12px; margin-top:24px; }
+    .button { display:inline-block; background:var(--green); color:#fff; text-decoration:none; padding:11px 18px; border-radius:7px; font-weight:700; }
+    .button.secondary { background:#fff; color:var(--green); border:1px solid var(--green); }
+    .tag { color:var(--muted); font-size:.92rem; }
+    footer { background:#f9fafb; border-top:1px solid var(--line); padding:28px 0; color:var(--muted); font-size:.92rem; }
+    footer a { color:var(--green); }
+    @media (max-width:760px) { .nav { align-items:flex-start; flex-direction:column; } .grid, .grid-3 { grid-template-columns:1fr; } section { padding:44px 0; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="index.html">SafexGuard</a>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="technology.html">Technology</a>
+        <a href="products.html">Products</a>
+        <a href="applications.html">Applications</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <p class="tag">REAL-TIME FOOD FRESHNESS MONITORING</p>
+        <h1>Real-time Food Freshness Monitoring for a Safer, Less Wasteful Future</h1>
+        <p class="lead">SafexGuard develops smart labels and sensing pads that detect food spoilage in real time, helping businesses reduce waste, protect reputations and enhance food safety from farm to table.</p>
+        <div class="buttons">
+          <a class="button" href="technology.html">Explore Our Technology</a>
+          <a class="button secondary" href="contact.html">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- KEY PROBLEMS -->
+    <section>
+      <div class="container">
+        <h2>Key Problems We Solve</h2>
+        <ul>
+          <li>Food waste remains a major challenge, partly because many operations lack real-time freshness monitoring.</li>
+          <li>Products may be discarded early as a precaution based only on printed expiry dates.</li>
+          <li>Some products can spoil before their expected expiry date, creating food-safety and reputational risks.</li>
+          <li>Retailers and consumers may find it difficult to assess ripeness and freshness accurately by appearance alone.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SOLUTION -->
+    <section class="soft">
+      <div class="container">
+        <h2>Our Solution at a Glance</h2>
+        <p>SafexGuard uses biomarker-sensing technology to monitor food quality in real time.</p>
+        <div class="grid grid-3">
+          <article class="card"><h3>Detect</h3><p>Detects spoilage markers such as biogenic amines, ethylene and mercaptans.</p></article>
+          <article class="card"><h3>Indicate</h3><p>Changes colour when food begins to spoil or ripen.</p></article>
+          <article class="card"><h3>Integrate</h3><p>Works in chilled and frozen environments without a power supply and can be integrated into packaging workflows.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHO WE SERVE / WHY CHOOSE -->
+    <section>
+      <div class="container grid">
+        <div>
+          <h2>Who We Serve</h2>
+          <ul>
+            <li>Fruit retailers and supermarkets</li>
+            <li>Central kitchens and catering groups</li>
+            <li>Chilled and frozen food manufacturers</li>
+            <li>Cold-chain logistics and warehouse operators</li>
+            <li>Hotels, restaurants and institutional kitchens</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Why Choose SafexGuard</h2>
+          <ul>
+            <li>Real-time monitoring rather than estimated expiry dates alone</li>
+            <li>Low-cost formats designed for scalable adoption</li>
+            <li>Supports food-waste reduction and food-safety management</li>
+            <li>Developed from chemistry and food-technology research expertise</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 SafexGuard (ZenxTag Technology Limited). All rights reserved.</p>
+      <p>
+        <a href="contact.html">Contact</a> |
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a> |
+        <a href="https://www.facebook.com" target="_blank" rel="noopener">Facebook</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
